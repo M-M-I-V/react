@@ -1,5 +1,5 @@
 import './index.css'
-import Welcome from './components/Welcome'
+import Welcome from './components/Welcome.jsx'
 
 const App = () => {
   return (
