@@ -1,7 +1,7 @@
-const Welcome = () => {
+const Welcome = (props) => {
   return (
     <div className="text-2xl font-bold text-center">
-      React app!
+      <h1>{props.library} Application</h1>
     </div>
   )
 }
