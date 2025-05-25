@@ -6,7 +6,7 @@ import MyComponent from './components/MyComponent.jsx'
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex-row justify-center items-center h-screen text-center p-10 bg-zinc-800 rounded-lg shadow-lg text-slate-300 font-mono font-semibold">
       <Welcome library = "React"/>
       <Greeting name = "Neil"/>
       <FirstComponent />
